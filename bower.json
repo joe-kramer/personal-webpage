@@ -1,0 +1,20 @@
+{
+  "name": "personal-webpage-frontend",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Joe Kramer <joekramer1125@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/joe-kramer/webpage-angular-frontend",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
