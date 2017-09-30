@@ -1,7 +1,7 @@
 body {
   background-color: #212121 !important;
   color: white !important;
-  text-align: center;
+  font-family: 'Roboto Mono' !important;
 }
 
 .footer {
@@ -11,4 +11,5 @@ body {
   height: 60px;
   background-color: #f5f5f5;
   padding: 15px;
+  background-color: #212121 !important;
 }
