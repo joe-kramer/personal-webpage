@@ -4,10 +4,12 @@
   <meta charset="utf-8">
   <title>Joe Kramer</title>
   <base href="/">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="assets/jquery-3.2.1.js"></script>
+  <script src="assets/scripts.js"></script>
 </head>
 <body>
   <div>
@@ -32,8 +34,11 @@
         <td class="cell" id="8"></td>
       </tr>
     </table>
-    <div class="gameover">
-      <button onclick="startGame()">Reset</button>
+    <div class="resetButton">
+      <button type="button" id="resetButton" class="btn btn-outline-info">Reset</button>
+    </div>
+    <div class="gameOver">
+      <div class="text"></div>
     </div>
   </div>
 </body>
