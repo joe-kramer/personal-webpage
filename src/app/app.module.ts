@@ -6,13 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { WebpageComponent } from './webpage/webpage.component';
 import { routing } from './app.routing';
-import { TttComponent } from './ttt/ttt.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WebpageComponent,
-    TttComponent
+    WebpageComponent
   ],
   imports: [
     BrowserModule,

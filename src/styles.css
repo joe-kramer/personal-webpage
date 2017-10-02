@@ -10,8 +10,13 @@ body {
   width: 100%;
   height: 60px;
   background-color: #f5f5f5;
-  padding: 15px;
   background-color: #212121 !important;
+  text-align: right;
+}
+
+.email {
+  position: relative;
+  float: left;
 }
 
 td {
@@ -29,7 +34,7 @@ table {
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 table tr:first-child td {
@@ -71,7 +76,7 @@ table tr td:last-child {
 .gameOver {
   display: none;
   width:  200px;
-  top: 120px;
+  top: 45px;
   background-color: rgba(245, 245, 245, 0.8);
   position: absolute;
   left: 50%;
@@ -82,4 +87,13 @@ table tr td:last-child {
   border-radius: 5px;
   color: white;
   font-size: 2em;
+}
+
+
+.outer {
+  position: relative;
+}
+
+.container {
+  padding-top: 25px;
 }
