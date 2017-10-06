@@ -52,6 +52,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start": "ng serve --host 10.0.0.237"
+    "start": "ng serve --proxy-config proxy.conf.json"
   }
 }

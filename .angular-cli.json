@@ -9,7 +9,10 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "scripts.js",
+        "Resume.pdf",
+        "jquery-3.2.1.js"
       ],
       "index": "index.html",
       "main": "main.ts",
