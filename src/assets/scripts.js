@@ -21,6 +21,9 @@ function startGame() {
   $(".cell").removeClass("redWin");
   $(".cell").removeClass("tie");
   $(".gameOver").hide();
+  if (!$("table").hasClass("active")) {
+    $("table").addClass("active");
+  }
 }
 
 function turn(cellID, player) {
@@ -32,9 +35,12 @@ function turn(cellID, player) {
       $(".cell").addClass("tie");
       $(".gameOver").show();
       $(".text").text("TIE");
+      $("table").removeClass("active");
     }
   } else {
-    alert("Space already marked " + $("#" + cellID).text());
+    if ($("table").hasClass("active")) {
+      alert("Space already marked " + $("#" + cellID).text());
+    }
   }
 }
 
@@ -98,6 +104,7 @@ function gameOver(winningCombo, player) {
       $(".text").text("YOU LOSE");
     }
   }
+  $("table").removeClass("active");
 }
 
 function checkTie() {
