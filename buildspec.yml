@@ -9,10 +9,10 @@ phases:
             - echo Installing source NPM dependencies...
             - npm install
             - npm install -g @angular/cli
-    pre_build:
-        commands:
-            - npm install bower
-            - bower install
+    # pre_build:
+    #     commands:
+    #         - npm install bower
+    #         - bower install
     build:
         commands:
             - echo Build started on `date`
