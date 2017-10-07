@@ -10,9 +10,10 @@ phases:
             - npm install
             - npm install -g @angular/cli
             - npm install -g bower
-    pre_build:
-        commands:
-            - bower install
+            - ./node_modules/bower/bin/bower install --allow-root
+    # pre_build:
+    #     commands:
+    #         - bower install --allow-root
     build:
         commands:
             - echo Build started on `date`
